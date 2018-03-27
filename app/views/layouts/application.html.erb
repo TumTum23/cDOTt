@@ -8,7 +8,18 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+
+
   <body>
+
+<!-- fake navbar -->
+   <h1> <%= image_tag "download.jpg", :quality=>100, :radius=>0, height: 30 %>C.T - Navbar <%= image_tag "download.jpg", :quality=>100, :radius=>0, height: 30 %></h1>
+
+
     <%= yield %>
+
+
+
+    <p> A simple footer</p>
   </body>
 </html>
